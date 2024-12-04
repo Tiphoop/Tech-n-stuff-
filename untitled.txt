@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech & Stuff</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Tech & Stuff</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#tutorials">Tutorials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Homepage Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Tech & Stuff</h2>
+            <p>Stay updated on the latest tech trends, reviews, and tutorials.</p>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="section">
+        <h2>Latest Tech News</h2>
+        <div class="article">
+            <h3>New Smartphone Release</h3>
+            <p>The latest smartphone from XYZ features cutting-edge technology...</p>
+        </div>
+        <div class="article">
+            <h3>AI Advancements in 2024</h3>
+            <p>AI is revolutionizing various industries, from healthcare to finance...</p>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="section">
+        <h2>Product Reviews</h2>
+        <div class="review">
+            <h3>XYZ Smartwatch Review</h3>
+            <p>This smartwatch offers exceptional features like health monitoring...</p>
+        </div>
+        <div class="review">
+            <h3>ABC Laptop Review</h3>
+            <p>The ABC Laptop provides great performance for both work and gaming...</p>
+        </div>
+    </section>
+
+    <!-- Tutorials Section -->
+    <section id="tutorials" class="section">
+        <h2>Tech Tutorials</h2>
+        <div class="tutorial">
+            <h3>How to Build a Gaming PC</h3>
+            <p>Step-by-step guide to assemble your custom gaming PC...</p>
+        </div>
+        <div class="tutorial">
+            <h3>Setting Up a Smart Home</h3>
+            <p>Learn how to set up and automate your smart home...</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Tech & Stuff. All rights reserved.</p>
+    </footer>
+</body>
+</html>
